@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+<!--linking the stylesheet with html-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--giving heading while using heading tag-->
+    <h1 style="color:black">Static Resume Builder </h1>
+<!--Creating a form for bio-data-->
+    <form id="resumeform">
+    <fieldset>
+        
+        <legend>Personal Information </legend> 
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Enter your name" id="name" name="name" required> 
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" placeholder="Enter your email" id="email" name="email" required>
+        <br>
+        <label for="number"> Contact Number:</label>
+        <input type="number" placeholder="Enter your mobile number" id="phone" name="phone" required>
+        <br>
+        <label for="identity card number">CNIC:</label>
+        <input type="number" placeholder="Enter your CNIC" id="idcard" name="idcard">
+        <label for="address">Address:</label>
+        <input type="text" placeholder="Enter your Residential Address" id="address" name="adress">
+        <br>
+       <label for="nationality">Nationality:</label>
+        <input type="text" placeholder="Enter your Nationality" id="nationality" name="nationality">
+        <br>
+
+        <br>
+    </fieldset>
+    <br>
+    <!--creating another fieldset for credentials-->
+    <fieldset>
+        <legend>Education</legend>
+        <label for="education">Education:</label>
+        <textarea id="education" name="education" rows="4" required></textarea>
+        <br>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="experience">Experience:</label>
+        <textarea id="experience" name="experience" rows="4" required></textarea>
+        <br>
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills:</label>
+        <textarea id="skill" name="skill" rows="4" required></textarea>
+        <br>
+
+    </fieldset>
+<br>
+<!--creating a submit button tag-->
+    <button type="submit"> Click to Generate Resume  </button>
+
+
+
+</form>
+
+
+
+    
+
+
+  
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    background-image: url(background.image.webp);
+}
+
+body {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    padding: 0;
+    /*background-color:rgb(249, 250, 251)*/
+}
+
+h1{
+    text-align: center;
+    color: rgb(19, 52, 52);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(168, 218, 244);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(1, 47, 63);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid rgb(70, 11, 81) ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(249, 249, 246);
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color:rgb(31, 30, 30)
+}
+
+input,textarea {
+    width: calc(100% - 5px);
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid rgb(53, 118, 231);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding:10px;
+    background-color: rgba(83, 105, 243, 0.768) ;
+    font-weight: 600;
+    color:black;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(78, 89, 130);
+}
